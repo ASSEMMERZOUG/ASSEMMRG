@@ -64,56 +64,6 @@ Learned the basic principles of cybersecurity, including cryptography, network d
 Project Experience
 Below are two key projects that I have completed to demonstrate my practical skills in cybersecurity:
 
-Project 1: Comprehensive Vulnerability Assessment
-Objective: Conducted a vulnerability assessment on local and external-facing assets to identify and mitigate security risks, leveraging both passive and active reconnaissance techniques.
-Tools Used: Shodan, Nmap, Dirsearch, Sublist3r, Xray, Metasploit
-
-Methodology:
-
-Passive Information Gathering with Shodan:
-
-Used Shodan to perform passive reconnaissance, identifying publicly exposed services, devices, and their associated metadata.
-Collected information on open ports, service banners, and potential vulnerabilities for external-facing assets.
-Active Information Gathering with Nmap:
-
-Conducted network scans using Nmap to enumerate open ports, running services, and operating system information.
-Used Nmap Scripting Engine (NSE) to detect vulnerabilities such as outdated software versions, default credentials, and misconfigurations.
-Subdomain Enumeration:
-
-Used sublist3r enumeration tools to discover additional subdomains, expanding the attack surface for potential vulnerabilities.
-Directory Scanning with Dirsearch:
-
-Performed directory brute-forcing on web servers using Dirsearch to locate hidden or sensitive directories, including admin panels and backup files.
-Vulnerability Scanning with Xray:
-
-Utilized Xray scanner to identify critical vulnerabilities in web applications, including SQL injection, Cross-Site Scripting (XSS), and file inclusion vulnerabilities.
-Exploitation and Post-Exploitation with Metasploit:
-
-Leveraged Metasploit Framework to simulate exploitation of identified vulnerabilities in a controlled environment, including privilege escalation and lateral movement.
-Performed post-exploitation tasks, such as gathering sensitive information, system enumeration, and setting up persistence, to assess the impact of the vulnerabilities.
-Outcome:
-
-Successfully uncovered 8 critical vulnerabilities, including exposed sensitive directories, SQL inject,XSS, File Upload Vulnerability in web applications.
-Provided a detailed report with prioritized mitigation strategies, recommending actions such as patch management, access control updates, and enhanced monitoring.
-Strengthened the security posture of the organization by resolving all critical issues and improving overall resilience against potential attacks.
-
-
-Project 2: Malware Analysis
-Objective: Analyzed the behavior of a ransomware sample in a controlled environment to understand its infection mechanism.
-Tools Used: IDA Pro, Ghidra, VirtualBox, Wireshark
-Methodology:
-
-Ran the malware in an isolated virtual machine to observe its behavior.
-Used IDA Pro and Ghidra to reverse-engineer the binary and analyze its code.
-Captured network traffic with Wireshark to identify command-and-control (C2) communication patterns.
-Documented the malware's encryption process and identified mitigation strategies.
-Outcome: Produced a detailed report outlining the malware’s lifecycle, infection vectors, and steps to prevent similar attacks.
-Learning Journey
-What I've Learned So Far:
-Gained a solid foundation in penetration testing, including OWASP Top10 vulnerability.
-Learned to use tools like Wireshark,Nmap,Metasploit for network traffic analysis and threat detection.
-Developed skills in malware reverse engineering, including static and dynamic analysis using tools like Ghidra, IDA.
-
 Challenges:
 Malware Analysis: Understanding obfuscation techniques used by advanced malware.
 Incident Response: Developing speed and accuracy in identifying and responding to threats.
