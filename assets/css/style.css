@@ -203,7 +203,7 @@ nav {
     font-family: 'Courier New', monospace;
     position: relative;
     overflow: hidden;
-    background-image: url('/home/assem/43/hx/PortfolioWeb/ASSEMMRG/assets/images/me.jpg');
+    background-image: url('assets/images/me.jpg');
     background-size: cover;
     background-position: center;
 }
